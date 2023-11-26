@@ -10,6 +10,9 @@ resource "aws_instance" "monitoring_instance" {
   user_data = base64encode(templatefile("${path.module}/monitoring-instance.tpl", {
     efs_mount_point = var.efs_mount_point
     file_system_id  = aws_efs_file_system.efs_file_system.id
+    basic_auth_token = var.basic_auth_token
+    slack_url = var.slack_url
+    slack_channel = var.slack_channel
   }))
 
   tags = {

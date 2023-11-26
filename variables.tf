@@ -33,3 +33,15 @@ variable "vpc_cidr" {
 variable "efs_mount_point" {
   type = string
 }
+
+variable "basic_auth_token" {
+  type = string
+}
+
+variable "slack_url" {
+  type = string
+}
+
+variable "slack_channel" {
+  type = string
+}
