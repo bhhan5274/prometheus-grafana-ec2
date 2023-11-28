@@ -33,9 +33,9 @@ security_egress = {
 
 ami               = "ami-0e01e66dacaf1454d"
 instance_type     = "t2.micro"
-instance_key_name = "bhhan-instance-key"
+instance_key_name = "cloudn-instance-key"
 vpc_cidr          = "10.0.0.0/16"
 efs_mount_point   = "efs"
-basic_auth_token  = "\\$2b\\$12\\$Zs4nHCtgVxsfitTqliyLIefBzCUnbDyKUwgEL1saQxWQU2SgrK8dG"
+basic_auth_token  = "\\$2b\\$12\\$W.ivYWngJlEg9mqrukW/qOJF62FSdSB2M0PCJf.ED8/eKW65zHheK"
 slack_url = ""
 slack_channel = ""
